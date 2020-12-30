@@ -112,7 +112,7 @@ void MainWindow::on_actionFont_triggered()
 
 void MainWindow::on_actionColor_triggered()
 {
-    QColor color = QColorDialog::getColor(Qt::white,this,"Choose Color");
+    QColor color = QColorDialog::getColor(Qt::white,this,"Choose rang");
     if(color.isValid()){
         ui->textEdit->setTextColor(color);
     }
